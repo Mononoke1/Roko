@@ -1,0 +1,66 @@
+.quote {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .question-text {
+    font-weight: strong;
+  }
+  .answer-text {
+    color: seagreen;
+  }
+  #help-text {
+    color: blueviolet;
+  }
+  .container {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .intro {
+    text-align: center;
+  }
+  
+  .image {
+    border-radius: 30%;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 50px 100px
+    text-align: center;
+  
+  
+  }
+  
+  .i-am, .i-like {
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .about-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-heading {image-align: left;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .project-image {
+    justify-self: center;
+    padding: 4%;
+  }
+  
+  @media (max-width: 480px) {
+    .about-grid {
+      grid-template-columns: 100%;
+    }
+    
+  @media (max-width: 650px) {
+    .projects-grid {
+      grid-template-columns: 100%;
+    }
